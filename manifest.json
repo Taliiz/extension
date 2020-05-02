@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "first extension 2",
+  "name": "first extension",
   "version": "0.1",
   "content_scripts": [
     {
@@ -11,7 +11,7 @@
     }
   ],
   "browser_action": {
-    "default_icon": "FeelsIkeMan.png"
+    "default_icon": "icon.png"
   },
   "background": {
     "scripts": ["background.js"]

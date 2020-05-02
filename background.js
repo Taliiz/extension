@@ -1,7 +1,7 @@
-console.log("background running")
+console.log("background is working")
 
-chrome.browserAction.onClick.addListener(buttonClicked);
+chrome.browserAction.onClicked.addListener(buttonClicked);
 
 function buttonClicked() {
-  console.log("does this work?")
+  console.log("onClicked works")
 }

@@ -1,1 +1,1 @@
-console.log("dank memes")
+console.log("content.js is working")
