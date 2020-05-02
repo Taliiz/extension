@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "first extension 2",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["content.js"]
+    }
+  ],
+  "browser_action": {
+    "default_icon": "FeelsIkeMan.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
